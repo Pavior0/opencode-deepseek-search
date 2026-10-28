@@ -10,7 +10,6 @@ import {
 } from "@opencode/plugin/gui"
 import { For, Show, createSignal, onCleanup, type Accessor } from "solid-js"
 import { DeepSeek, type SearchResult } from "../rpc.js"
-import deepseekLogo from "../../assets/deepseek-logo.svg?raw"
 import { insertIntoComposer } from "./composer.js"
 import type { definition } from "./definition.js"
 import { openFetch } from "./fetch-dialog.js"
@@ -197,9 +196,18 @@ export function SearchPanel(props: SearchPanelProps) {
     <div class="ds-panel">
       <header class="ds-head">
         <div class="ds-brand">
-          <div class="ds-brand-logo" aria-hidden="true" innerHTML={deepseekLogo} />
           <div>
-            <h2 class="ds-title">{ctx.t("panel.title")}</h2>
+            <div class="ds-title-row">
+              <h2 class="ds-title">{ctx.t("panel.title")}</h2>
+              <span
+                class="ds-unofficial-tag"
+                data-component="tag"
+                data-appearance="neutral"
+                data-variant="subtle"
+              >
+                {ctx.t("panel.unofficial")}
+              </span>
+            </div>
             <p class="ds-subtitle">{ctx.t("panel.subtitle")}</p>
           </div>
         </div>

@@ -5,6 +5,7 @@ export default {
   "command.search.title": "DeepSeek: Search the current prompt",
   "command.search.description": "Search the web for the text in the composer",
   "panel.title": "DeepSeek Search",
+  "panel.unofficial": "Unofficial",
   "panel.subtitle": "Search, preview, and cite web sources in this session.",
   "panel.configure": "Connect DeepSeek",
   "panel.mobile": "DeepSeek",

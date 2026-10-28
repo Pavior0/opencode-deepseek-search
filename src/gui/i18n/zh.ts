@@ -5,6 +5,7 @@ export default {
   "command.search.title": "DeepSeek：搜索当前提示词",
   "command.search.description": "用输入框中的文字进行联网搜索",
   "panel.title": "DeepSeek 搜索",
+  "panel.unofficial": "非官方",
   "panel.subtitle": "在当前会话中搜索、预览并引用网页来源。",
   "panel.configure": "配置 DeepSeek",
   "panel.mobile": "DeepSeek",

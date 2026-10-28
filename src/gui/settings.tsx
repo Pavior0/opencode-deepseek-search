@@ -111,7 +111,17 @@ export function Settings(props: {
       <div class="settings-tab-header">
         <div class="settings-tab-header-row">
           <div class="flex min-w-0 flex-col gap-1">
-            <h2 class="settings-tab-title">{ctx.t("settings.title")}</h2>
+            <div class="ds-title-row">
+              <h2 class="settings-tab-title">{ctx.t("settings.title")}</h2>
+              <span
+                class="ds-unofficial-tag"
+                data-component="tag"
+                data-appearance="neutral"
+                data-variant="subtle"
+              >
+                {ctx.t("panel.unofficial")}
+              </span>
+            </div>
             <span class="text-11-regular text-v2-text-text-muted">
               {ctx.t("settings.description")}
             </span>

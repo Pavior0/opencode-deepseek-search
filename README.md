@@ -1,9 +1,5 @@
 # opencode-deepseek-search
 
-<p align="center">
-  <img src="./assets/deepseek-logo.svg" alt="DeepSeek" width="220">
-</p>
-
 <p align="center">Unofficial DeepSeek Search and Fetch integration for OpenCode V2.</p>
 
 <p align="center">
@@ -14,7 +10,7 @@
 <p align="center"><a href="README.md">English</a> · <a href="README.zh-CN.md">简体中文</a></p>
 
 > [!IMPORTANT]
-> This is an independent, unofficial community plugin. It is not affiliated with, endorsed by, or maintained by DeepSeek or OpenCode. DeepSeek branding is used only to identify the API this plugin integrates.
+> This is an independent, unofficial community plugin. It is not affiliated with, endorsed by, or maintained by DeepSeek or OpenCode. “DeepSeek” identifies the API this plugin integrates.
 
 This plugin provides:
 
@@ -215,7 +211,7 @@ The built-in `webfetch` tool remains available. This plugin does not replace it.
 
 See the [DeepSeek Search documentation](https://api-docs.deepseek.com/guides/search) and [pricing notes](https://api-docs.deepseek.com/guides/search#计费).
 
-Also see OpenCode's [plugin documentation](https://dev.opencode.ai/v2/docs/plugins) and DeepSeek's [brand asset guidelines](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/_logo%20svg/guidelines.md).
+Also see OpenCode's [plugin documentation](https://dev.opencode.ai/v2/docs/plugins).
 
 ## Development
 

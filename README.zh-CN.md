@@ -1,9 +1,5 @@
 # opencode-deepseek-search
 
-<p align="center">
-  <img src="./assets/deepseek-logo.svg" alt="DeepSeek" width="220">
-</p>
-
 <p align="center">面向 OpenCode V2 的非官方 DeepSeek Search 和 Fetch 集成。</p>
 
 <p align="center">
@@ -14,7 +10,7 @@
 <p align="center"><a href="README.md">English</a> · 简体中文</p>
 
 > [!IMPORTANT]
-> 这是独立的非官方社区插件，与 DeepSeek 或 OpenCode 没有隶属、维护或背书关系。项目只使用 DeepSeek 品牌素材来标识实际接入的 API。
+> 这是独立的非官方社区插件，与 DeepSeek 或 OpenCode 没有隶属、维护或背书关系。“DeepSeek”仅用于标识实际接入的 API。
 
 插件提供：
 
@@ -222,7 +218,7 @@ GUI 是实验性能力，需要 Desktop GUI host；server tools 和 WebSearch pr
 
 参考：[DeepSeek Search 文档](https://api-docs.deepseek.com/guides/search) · [计费说明](https://api-docs.deepseek.com/guides/search#计费)
 
-另请参阅 OpenCode 的 [plugin 文档](https://dev.opencode.ai/v2/docs/plugins) 和 DeepSeek 的[品牌素材规范](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/_logo%20svg/guidelines.md)。
+另请参阅 OpenCode 的 [plugin 文档](https://dev.opencode.ai/v2/docs/plugins)。
 
 ## 开发
 
