@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/package.json",
+  "name": "opencode-deepseek-search",
+  "version": "0.0.1",
+  "private": true,
+  "description": "DeepSeek web search, page fetch, and an experimental desktop GUI for OpenCode",
+  "keywords": [
+    "deepseek",
+    "opencode",
+    "opencode-plugin",
+    "webfetch",
+    "websearch"
+  ],
+  "homepage": "https://github.com/Pavior0/opencode-deepseek-search#readme",
+  "bugs": {
+    "url": "https://github.com/Pavior0/opencode-deepseek-search/issues"
+  },
+  "license": "MIT",
+  "author": "opencode-deepseek-search contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavior0/opencode-deepseek-search.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.ts",
+    "./server": "./index.ts",
+    "./rpc": "./src/rpc.ts",
+    "./gui-experimental": "./dist/gui-experimental.cjs"
+  },
+  "scripts": {
+    "build": "vite build",
+    "format": "bun fmt",
+    "format:check": "bun fmt --check",
+    "test": "bun test",
+    "dev": "vite build --watch",
+    "prepare": "bun run build",
+    "typecheck": "tsc --noEmit",
+    "check": "bun run format:check && tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "@opencode/schema": "2.2.0"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "^2.2.0",
+    "@types/bun": "^1.4.3",
+    "@types/node": "^24.12.2",
+    "effect": "4.0.1",
+    "solid-js": "^1.9.15",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6",
+    "vite-plugin-solid": "^2.11.10"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": "^2.2.0",
+    "effect": "^4.0.0"
+  },
+  "peerDependenciesMeta": {},
+  "engines": {
+    "bun": ">=1.4.4"
+  }
+}

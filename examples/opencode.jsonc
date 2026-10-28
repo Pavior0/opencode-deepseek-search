@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "https://github.com/Pavior0/opencode-deepseek-search.git",
+      "options": {
+        "count": 8,
+        "needContent": false,
+        "timeoutMs": 30000,
+        "defaultProvider": true,
+      },
+    },
+  ],
+}

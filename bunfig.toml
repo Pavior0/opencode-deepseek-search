@@ -1,0 +1,6 @@
+[install]
+registry = "https://registry.npmjs.org"
+
+[fmt]
+printWidth = 100
+semi = false
